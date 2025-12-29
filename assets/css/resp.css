@@ -38,6 +38,7 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     .toppings h4 {font-size:22px;}
     .tab-list-details #showMoreButton {padding:8px 35px; font-size:17px;}
     div#fund-content p {font-size:14px; margin:14px auto;}
+    #fund-content h2 { font-size: 37px;}
 
     /* header mobile menu */
     .menu { padding: 0 40px;}
@@ -102,6 +103,7 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     .menu-card {background:#fff; height:400px;}
     .scoop-cup {background:#fff; height:400px;}
     ul.site-nav-menu .site-nav-link {font-size:15px;}
+    #fund-content h2 { font-size: 23px;}
 
 }
 
@@ -133,8 +135,8 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     .is-sticky .logo img {width: 160px;}
     body.mobile-menu-open .logo , body.mobile-menu-open .is-sticky .logo img , body.mobile-menu-open .logo img {width: 120px;}
     .mobile-menu{top: 117px;height: calc(100vh - 117px);}
-
-
+    .fund-card #split-wrap::before { right: -20px; width: 65px; }
+    .fund-card #split-wrap::after { left: -21px; width: 67px;}
 }
 
 @media (max-width: 767px) {
@@ -154,7 +156,8 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     #module .swiper .swiper-button-next svg, #module .swiper .swiper-button-prev svg {width:30px;}
     #module .swiper .swiper-pagination .swiper-pagination-bullet {width:45px;}
     #module .swiper .swiper-slide .content a {padding:21px 40px; font-size:14px;}
-
+     .fund-card #split-wrap::after {top: -5px; bottom: 0; left: -35px; width:74px;}
+     .fund-card #split-wrap::before { width: 66px;}
     /* header and mobile menu */
     .logo{flex: 0 1 160px;margin-bottom: -60px;}
     .logo a img {width: 160px;}
@@ -180,6 +183,8 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     #fund-content p {font-size:15px; margin:14px auto;}
     .fund-card {height:620px !important;}
     #fund-content h2 {font-size:29px;}
+    #fund-card-1 .split-wrap::after { left: 55px; width: 90px; z-index: 0;}
+    #fund-card-1 .split-wrap::before { right: 51px; width: 56px; z-index: 0;}
 
     /* header and mobile menu */
     .logo{flex: 0 1 130px;margin-bottom: -60px;}

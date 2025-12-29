@@ -37,9 +37,9 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     .tab-pane h3 {font-size:34px;}
     .toppings h4 {font-size:22px;}
     .tab-list-details #showMoreButton {padding:8px 35px; font-size:17px;}
-    div#fund-content p {font-size:14px; margin:14px auto;}
+    #fund-content p {font-size:14px; margin:14px auto;}
     #fund-content h2 { font-size: 37px;}
-    p { font-size: 17px; }
+
 
     /* header mobile menu */
     .menu { padding: 0 40px;}

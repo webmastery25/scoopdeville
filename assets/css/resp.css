@@ -165,7 +165,16 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     .is-sticky .logo img {width: 140px;}
     body.mobile-menu-open .logo , body.mobile-menu-open .is-sticky .logo img , body.mobile-menu-open .logo img {width: 100px;}
     .mobile-menu{top: 101px;height: calc(100vh - 101px);}
+    .footer {margin-bottom: 75px; }
+    .site-nav-menu .email-btn{display: none;}
+    .bottom-bar a {font-size: 24px;}
+}
 
+@media (min-width: 768px) {
+  .bottom-bar {
+    display: none;
+  }
+  
 }
 
 @media (max-width: 575px) {
@@ -198,7 +207,10 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     #accordian ul li i {font-size: 17px;}
     #accordian ul li a{font-size: 22px;}
     #accordian ul ul li a{font-size: 19px;line-height: 22px;}
+}
 
+@media (max-width: 575px) {
+.bottom-bar a {font-size: 17px;}
 }
 
 

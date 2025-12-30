@@ -387,8 +387,6 @@ div#fund-content h2 {text-shadow:unset;}
   color: #fff;
 }
 
-
-
 .partner-content .order-btn:hover {
-    color: #fff !important;
+    background: transparent;
 }

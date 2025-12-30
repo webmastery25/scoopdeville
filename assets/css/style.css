@@ -389,4 +389,5 @@ div#fund-content h2 {text-shadow:unset;}
 
 .partner-content .order-btn:hover {
     background: transparent;
+    transition: all 0.4s;
 }

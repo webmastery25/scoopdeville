@@ -207,9 +207,10 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     #accordian ul li i {font-size: 17px;}
     #accordian ul li a{font-size: 22px;}
     #accordian ul ul li a{font-size: 19px;line-height: 22px;}
+    .bottom-bar a { font-size: 19px;}
 }
 
-@media (max-width: 575px) {
+@media (max-width: 375px) {
 .bottom-bar a {font-size: 17px;}
 }
 

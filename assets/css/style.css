@@ -389,3 +389,6 @@ div#fund-content h2 {text-shadow:unset;}
 
 
 
+.partner-content .order-btn:hover {
+    color: #fff !important;
+}

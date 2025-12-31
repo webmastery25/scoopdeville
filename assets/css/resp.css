@@ -14,7 +14,7 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
     .logo a img {width: 240px;}
     .is-sticky .logo img {width: 200px;}
     .menu-list{flex: 0 1 calc(100% - 240px);}
-    .menu-list ul.main-menu li a{font-size: 18px;}
+    .menu-list ul.main-menu li a{font-size: 15px;}
     .menu-list ul.main-menu li.has-mega-menu ul.submenu li a{font-size: 16px;}
 
 }

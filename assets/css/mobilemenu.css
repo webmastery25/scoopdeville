@@ -20,7 +20,7 @@ body.over { overflow: hidden;}
 .m-menu.open span:nth-child(3) { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); top: 21px; left: 4px; background: #ed5099; }
 
 #accordian { width: 100%; margin:0; padding:40px 50px; background: #ed5099;float: left;overflow-y: scroll;height: calc(100% - 94px);}     
-#accordian ul li a { width: fit-content;margin: 0 auto; padding: 0 0px; font-size: 25px; line-height: 30px; display: block; color: #fff;  text-decoration: none; position: relative;font-family: "Zilla Slab", serif;}
+#accordian ul li a { width: fit-content;margin: 0 auto; padding: 0 0px; font-size: 25px; line-height: 30px; display: block; color: #fff;  text-decoration: none; position: relative;font-family: "Zilla Slab", serif; text-transform: uppercase;}
 #accordian ul li a:after{position: absolute;left: 0;right: 0;bottom: 0;width: 0;height: 2px;background-color: var(--clr-bg-header);content: "";transition: width 0.3s;margin: 0 auto;}
 #accordian ul li a:hover:after{width: 100%;} 
 #accordian ul li a.active{font-family: "Zilla Slab", serif; font-weight: 900;}

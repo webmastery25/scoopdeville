@@ -63,7 +63,7 @@ header {position:relative; z-index:99;}
 .menu-list {display: flex;align-items: center;justify-content: flex-end;column-gap: 40px;flex: 0 1 calc(100% - 270px);}
 .menu-list ul.main-menu {display:flex; align-items:center; column-gap:25px;flex: 0 1 auto;}
 .menu-list ul.main-menu li {position:relative;}
-.menu-list ul.main-menu li a {color:var(--clr-light); letter-spacing:1px; font-size:20px; line-height:1;}
+.menu-list ul.main-menu li a {color:var(--clr-light); letter-spacing:1px; font-size:17px; line-height:1; text-transform: uppercase; font-weight: 600;}
 .menu-list ul.main-menu li:hover ul.submenu {opacity:1; visibility:visible; top:130%;}
 .menu-list ul.main-menu li ul.submenu {transition:all 0.4s ease; position:absolute; padding:15px 25px; transition:0.3s; top:100%; opacity:0; visibility:hidden; box-shadow:0px 20px 30px rgba(0,0,0,0.63);}
 .menu-list ul.main-menu li.has-mega-menu {position:relative;padding-right: 20px;}
@@ -134,7 +134,7 @@ to {transform:rotate(-30deg)}
 .our-locations h3 {text-shadow:unset; font-weight:400; font-family:'Raleway'; background:var(--clr-bg-header); display:inline-block; padding:3px 25px; box-shadow:2px 2px; border-radius:7px;}
 .location-details {position:relative;}
 .location-details {position:relative; background-color:white; border-radius:30px; border:solid 5px var(--clr-dropdown-link-hov); padding:3rem; padding-bottom:36px; height:100%; z-index:1; box-shadow:rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; overflow:hidden;}
-.location-details::before {content:''; position:absolute; top:0; bottom:0; right:0; left:0; background-image:url(../../assets/images/topping.png); background-size:500px; opacity:0.6; z-index:-1;}
+.location-details::before {content:''; position:absolute; top:0; bottom:0; right:0; left:0; background-image:url(../../assets/images/topping.png); background-size:500px; opacity:0.5; z-index:-1;}
 .location-title {position:relative; background:var(--clr-bg-header); padding:40px 0px; overflow:hidden; border-bottom:solid 5px var(--clr-dropdown-link-hov);}
 .location-title p {font-size:30px; color:var(--clr-light); opacity:unset;}
 .email-wrapper {position:relative; display:inline-block; cursor:pointer; color:#007bff; font-size:18px;}

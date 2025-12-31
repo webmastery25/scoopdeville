@@ -71,7 +71,7 @@ header {position:relative; z-index:99;}
 .menu-list ul.main-menu li.has-mega-menu:hover:after {transform:rotate(-45deg); top:10px;}
 .menu-list ul.main-menu li.has-mega-menu ul.submenu {left:0; width:fit-content; border-radius:0px; background:var(--clr-light); z-index:999; display:flex; flex-wrap:wrap; align-items:center; row-gap:10px;}
 .menu-list ul.main-menu li.has-mega-menu ul.submenu li {flex:0 1 100%; padding:0;}
-.menu-list ul.main-menu li.has-mega-menu ul.submenu li a {color:var(--clr-bg-header); white-space:nowrap;font-size: 18px;position: relative;padding-bottom: 0px;}
+.menu-list ul.main-menu li.has-mega-menu ul.submenu li a {color:var(--clr-bg-header); white-space:nowrap;font-size: 16px;position: relative;padding-bottom: 0px;}
 .menu-list ul.main-menu li.has-mega-menu ul.submenu li a:after{position: absolute;left: 0;right: 0;bottom: 0;width: 0;height: 2px;background-color: var(--clr-bg-header);content: "";transition: width 0.3s;margin: 0 auto;}
 .menu-list ul.main-menu li.has-mega-menu ul.submenu li a:hover:after{width: 100%;} 
 .head-btn {display:inline-block; flex:0 1 190px; text-align:right;}

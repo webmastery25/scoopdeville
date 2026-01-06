@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {margin:0; padding:0; font-weight:600; font-family:"Zilla
 h1 {font-size:80px; margin:0px 0px 80px 0px; text-transform:uppercase;}
 h2 {font-size:51px; text-transform:uppercase;}
 h3 {font-size:55px;}
-p {margin:25px auto; padding:0; font-weight:400; font-size:22px; opacity:0.9;}
+p {margin:25px auto; padding:0; font-weight:300; font-size:22px; opacity:0.9;}
 span {font-family:"Zilla Slab", serif; font-weight:400;}
 section {position:relative; overflow:hidden; z-index:0; padding:75px 0;}
 main {margin:90px 0 0 0;}
@@ -130,7 +130,9 @@ to {transform:rotate(-30deg)}
 .ourmenu2 {margin-left:-150px; position:relative; z-index:1; margin-top:-70px;}
 #split-wrap::before {content:''; position:absolute; top:0; bottom:-100px; right:35px; background:url("../../assets/images/cone.png") no-repeat center/contain; width:180px; background-position:bottom; z-index:2; animation-name:shake; animation-duration:0.75s; animation-iteration-count:infinite; animation-direction:alternate; animation-timing-function:steps(2);}
 #split-wrap::after {content:''; position:absolute; top:22px; bottom:0; left:31px; background:url("../../assets/images/cap.png") no-repeat center/contain; width:190px; background-position:top; z-index:2; animation-name:shake; animation-duration:0.75s; animation-iteration-count:infinite; animation-direction:alternate; animation-timing-function:steps(2);}
-.our-locations h4 {font-family:"Raleway"; text-transform:uppercase; color:#3e3c3c; text-shadow:unset; text-decoration:underline double var(--clr-light) 2px; text-underline-offset:8px;}
+.our-locations h4 {color: #3e3c3c; text-shadow: unset; text-decoration: underline double var(--clr-light) 2px;
+    text-underline-offset: 8px; font-family: "Raleway", sans-serif !important; text-transform: uppercase;
+    font-weight: 100;}
 .our-locations h3 {text-shadow:unset; font-weight:400; font-family:'Raleway'; background:var(--clr-bg-header); display:inline-block; padding:3px 25px; box-shadow:2px 2px; border-radius:7px;}
 .location-details {position:relative;}
 .location-details {position:relative; background-color:white; border-radius:30px; border:solid 5px var(--clr-dropdown-link-hov); padding:3rem; padding-bottom:36px; height:100%; z-index:1; box-shadow:rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; overflow:hidden;}

@@ -384,11 +384,6 @@ div#fund-content h2 {text-shadow:unset;}
   transform: scale(0.96);
 }
 
-/* Order Now */
-.order-btn {
-  background: linear-gradient(135deg, #ff2f6e, #e91e63);
-  color: #fff;
-}
 
 /* Email Signin */
 .email-btn {

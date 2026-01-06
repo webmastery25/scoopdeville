@@ -15,7 +15,7 @@ html, body {font-size:18px; font-family:"Zilla Slab", serif; color:#000; scroll-
 ul, li {list-style:none; margin:0; padding:0;}
 a {text-decoration:none;}
 a:hover {text-decoration:none;}
-h1, h2, h3, h4, h5, h6 {margin:0; padding:0; font-weight:600; font-family:"Zilla Slab", serif; color:#D33880; text-shadow:-3px 3px var(--clr-dropdown-link-hov);}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0; font-weight: 400; font-family:"Zilla Slab", serif; color:#D33880; text-shadow:-3px 3px var(--clr-dropdown-link-hov);}
 h1 {font-size:80px; margin:0px 0px 80px 0px; text-transform:uppercase;}
 h2 {font-size:51px; text-transform:uppercase;}
 h3 {font-size:55px;}
@@ -131,8 +131,8 @@ to {transform:rotate(-30deg)}
 #split-wrap::before {content:''; position:absolute; top:0; bottom:-100px; right:35px; background:url("../../assets/images/cone.png") no-repeat center/contain; width:180px; background-position:bottom; z-index:2; animation-name:shake; animation-duration:0.75s; animation-iteration-count:infinite; animation-direction:alternate; animation-timing-function:steps(2);}
 #split-wrap::after {content:''; position:absolute; top:22px; bottom:0; left:31px; background:url("../../assets/images/cap.png") no-repeat center/contain; width:190px; background-position:top; z-index:2; animation-name:shake; animation-duration:0.75s; animation-iteration-count:infinite; animation-direction:alternate; animation-timing-function:steps(2);}
 .our-locations h4 {color: #3e3c3c; text-shadow: unset; text-decoration: underline double var(--clr-light) 2px;
-    text-underline-offset: 8px; font-family: "Raleway", sans-serif !important; text-transform: uppercase;
-    font-weight: 100;}
+    text-underline-offset: 8px; font-family: "Raleway", sans-serif !important;
+    font-weight:600;}
 .our-locations h3 {text-shadow:unset; font-weight:400; font-family:'Raleway'; background:var(--clr-bg-header); display:inline-block; padding:3px 25px; box-shadow:2px 2px; border-radius:7px;}
 .location-details {position:relative;}
 .location-details {position:relative; background-color:white; border-radius:30px; border:solid 5px var(--clr-dropdown-link-hov); padding:3rem; padding-bottom:36px; height:100%; z-index:1; box-shadow:rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; overflow:hidden;}
@@ -219,7 +219,7 @@ ul.site-nav-menu .site-nav-link {text-transform:uppercase; letter-spacing:1px; c
 #module .swiper {width:100%; height:100%;}
 #module .swiper .swiper-slide {text-align:center; display:flex; justify-content:center; align-items:flex-end;}
 #module .swiper .swiper-pagination {bottom:1.5rem; display:none;}
-#module .swiper .swiper-slide .content {display:flex; flex-direction:column; align-items:center; color:var(--swiper-theme-color); position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:#fff; font-weight:bold; text-align:center; z-index:1; background:#ed519a; padding:10px 67px; border-radius:19px;}
+#module .swiper .swiper-slide .content {display:flex; flex-direction:column; align-items:center; color:var(--swiper-theme-color); position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:#fff; font-weight:bold; text-align:center; z-index:1; background: #ed519aba; padding:10px 67px; border-radius:19px;}
 #module .swiper .swiper-slide .content h1 {color:#fff; margin-bottom:0px; text-shadow:unset;}
 #module .swiper .swiper-slide .content .description {font-size:18px; line-height:1.4; text-shadow:rgb(0, 0, 0) 0 0 3px;}
 #module .swiper .swiper-slide .content a {background-color:var(--swiper-theme-color); padding:11px 20px; font-size:12px; background:#fff; color:#05141f; min-width:80px; font-weight:600; text-decoration:none;}

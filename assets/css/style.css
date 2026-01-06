@@ -220,7 +220,7 @@ ul.site-nav-menu .site-nav-link {text-transform:uppercase; letter-spacing:1px; c
 #module .swiper .swiper-slide {text-align:center; display:flex; justify-content:center; align-items:flex-end;}
 #module .swiper .swiper-pagination {bottom:1.5rem; display:none;}
 #module .swiper .swiper-slide .content {display:flex; flex-direction:column; align-items:center; color:var(--swiper-theme-color); position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:#fff; font-weight:bold; text-align:center; z-index:1; background: #ed519aba; padding:10px 67px; border-radius:19px;}
-#module .swiper .swiper-slide .content h1 {color:#fff; margin-bottom:0px; text-shadow:unset;}
+#module .swiper .swiper-slide .content h1 {color:#fff; margin-bottom:0px; text-shadow:unset; font-weight:700;}
 #module .swiper .swiper-slide .content .description {font-size:18px; line-height:1.4; text-shadow:rgb(0, 0, 0) 0 0 3px;}
 #module .swiper .swiper-slide .content a {background-color:var(--swiper-theme-color); padding:11px 20px; font-size:12px; background:#fff; color:#05141f; min-width:80px; font-weight:600; text-decoration:none;}
 #module .swiper .swiper-slide .content a:hover {text-decoration:underline;}

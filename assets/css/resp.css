@@ -64,8 +64,8 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
 
 @media (max-width: 1199px) {
 
-    h1 {font-size:59px;}
-    h2 {font-size:55px;}
+    h1 {font-size:55px;}
+    h2 {font-size:54px;}
     p {margin:18px auto;}
     #check:checked~.nav-btn {height:calc(100vh - 0rem);}
     #check:checked~.nav-btn .nav-link, #check:checked~.nav-btn .log-sign {animation:animation .5s ease forwards var(--i);}
@@ -179,8 +179,11 @@ a[href^=tel] {text-decoration:inherit; color:inherit;}
 
 @media (max-width: 575px) {
 
-    h1 {font-size:40px;}
+        h1 { font-size: 33px; text-shadow: -2px 0px var(--clr-dropdown-link-hov);}
     p {font-size:18px;}
+    body .uwy.userway_p1 .userway_buttons_wrapper {
+    top: 151px !important;
+    }
     .menu-card {background:#fff; height:330px;}
     .scoop-cup {background:#fff; height:330px;}
     .tab-list-details {padding:16.6px;}

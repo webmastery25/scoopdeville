@@ -395,3 +395,14 @@ div#fund-content h2 {text-shadow:unset;}
     background: transparent;
     transition: all 0.4s;
 }
+
+.accessibility-page{
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .uwy.userway_p1 .userway_buttons_wrapper {
+    top: 160px !important;
+  }
